@@ -7,6 +7,8 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
-        
+        <ListBox x:Name="myListBox" HorizontalAlignment="Left" Height="362" Margin="84,23,0,0" VerticalAlignment="Top" Width="503" BorderBrush="#FF5570C3" Foreground="#FFA87171" Background="#FFD6C9C9"/>
+        <Button x:Name="myaddBtn" Content="Button" HorizontalAlignment="Left" Margin="630,23,0,0" VerticalAlignment="Top" Width="75" Background="#FFDC4A4A" Click="MyaddBtn_Click"/>
+
     </Grid>
 </Window>
